@@ -7,6 +7,7 @@ public class Main {
     public static void main(String[] args) {
         OfficeInternetAccess access = new ProxyInternetAccess("Oguzhan Cihan");
         System.out.println("testtt");
+        System.out.println("testtt-1");
         access.grantInternetAccess();
         
     }

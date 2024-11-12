@@ -6,6 +6,7 @@ import org.ocihan.proxy.ProxyInternetAccess;
 public class Main {
     public static void main(String[] args) {
         OfficeInternetAccess access = new ProxyInternetAccess("Oguzhan Cihan");
+        System.out.println("testtt");
         access.grantInternetAccess();
         
     }
